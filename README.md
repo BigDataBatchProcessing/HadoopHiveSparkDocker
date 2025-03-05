@@ -50,3 +50,7 @@ URI: jdbc:hive2://localhost:10000
 URL: http://localhost:8888
 
 example: [jupyter/notebook/pyspark.ipynb](jupyter/notebook/pyspark.ipynb)
+
+# Wprowadzone zmiany 
+
+- usunięcie CUDA z obrazu Jupyter Notebook
