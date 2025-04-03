@@ -13,6 +13,9 @@ RUN sed -i -e "s|http://archive.ubuntu.com|http://jp.archive.ubuntu.com|g" /etc/
       python-is-python3 \
       coreutils \
       libc6-dev \
+      nano \
+      wget \
+      unzip \
  && rm -rf /var/lib/apt/lists/*
 
 ARG USERNAME=jupyter
